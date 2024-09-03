@@ -1,0 +1,27 @@
+2024-09-03 22:39:43.988 INFO [main] [util.DriverManager.initializeBrowserDriver(DriverManager.java:28)] - Test Executed in Chrome Browser
+2024-09-03 22:39:50.780 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:31)] - navigate to Application OrgangeHRM https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2024-09-03 22:39:50.795 INFO [main] [util.PageUtils.initPageFactory(PageUtils.java:40)] - Initialized the page factory for All class
+2024-09-03 22:39:50.795 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:34)] - Called initPageFactory method
+2024-09-03 22:39:50.820 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:36)] - Maximaized the window
+2024-09-03 22:39:50.823 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:39)] - implicitWait inworked : 3 second
+2024-09-03 22:39:50.951 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-03 22:39:51.052 INFO [main] [hooks_class.Hooks.tearDown(Hooks.java:51)] - Browser quited
+2024-09-03 22:42:48.942 INFO [main] [util.DriverManager.initializeBrowserDriver(DriverManager.java:28)] - Test Executed in Chrome Browser
+2024-09-03 22:43:00.546 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:31)] - navigate to Application OrgangeHRM https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2024-09-03 22:43:00.583 INFO [main] [util.PageUtils.initPageFactory(PageUtils.java:40)] - Initialized the page factory for All class
+2024-09-03 22:43:00.583 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:34)] - Called initPageFactory method
+2024-09-03 22:43:00.623 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:36)] - Maximaized the window
+2024-09-03 22:43:00.626 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:39)] - implicitWait inworked : 3 second
+2024-09-03 22:43:00.723 DEBUG [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)] - Parsing relationship: /xl/_rels/workbook.xml.rels
+2024-09-03 22:43:00.725 DEBUG [main] [org.apache.poi.openxml4j.opc.PackageRelationshipCollection.parseRelationshipsPart(PackageRelationshipCollection.java:307)] - Parsing relationship: /_rels/.rels
+2024-09-03 22:43:00.988 DEBUG [main] [org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:607)] - Save content types part
+2024-09-03 22:43:01.069 DEBUG [main] [org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:611)] - Save package relationships
+2024-09-03 22:43:01.074 DEBUG [main] [org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:625)] - Save part 'docProps/app.xml'
+2024-09-03 22:43:01.075 DEBUG [main] [org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:625)] - Save part 'docProps/core.xml'
+2024-09-03 22:43:01.084 DEBUG [main] [org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:625)] - Save part 'xl/sharedStrings.xml'
+2024-09-03 22:43:01.085 DEBUG [main] [org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:625)] - Save part 'xl/styles.xml'
+2024-09-03 22:43:01.085 DEBUG [main] [org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:625)] - Save part 'xl/theme/theme1.xml'
+2024-09-03 22:43:01.085 DEBUG [main] [org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:625)] - Save part 'xl/workbook.xml'
+2024-09-03 22:43:01.087 DEBUG [main] [org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:625)] - Save part 'xl/worksheets/sheet1.xml'
+2024-09-03 22:43:01.371 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-03 22:43:01.500 INFO [main] [hooks_class.Hooks.tearDown(Hooks.java:51)] - Browser quited

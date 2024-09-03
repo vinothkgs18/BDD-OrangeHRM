@@ -1,0 +1,8 @@
+2024-09-03 22:39:43.988 INFO [main] [util.DriverManager.initializeBrowserDriver(DriverManager.java:28)] - Test Executed in Chrome Browser
+2024-09-03 22:39:50.780 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:31)] - navigate to Application OrgangeHRM https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2024-09-03 22:39:50.795 INFO [main] [util.PageUtils.initPageFactory(PageUtils.java:40)] - Initialized the page factory for All class
+2024-09-03 22:39:50.795 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:34)] - Called initPageFactory method
+2024-09-03 22:39:50.820 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:36)] - Maximaized the window
+2024-09-03 22:39:50.823 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:39)] - implicitWait inworked : 3 second
+2024-09-03 22:39:50.951 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-03 22:39:51.052 INFO [main] [hooks_class.Hooks.tearDown(Hooks.java:51)] - Browser quited
