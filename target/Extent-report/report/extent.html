@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Sep 22, 2024 08:12:00 am</span></a>
+<a href="#"><span class="badge badge-primary">Sep 22, 2024 01:31:27 pm</span></a>
 </li>
 </ul>
 </div>
@@ -45,11 +45,6 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
-</a>
-</li>
-<li class="nav-item dropdown" onclick="toggleView('exception-view')">
-<a id="nav-exception" class="dropdown-toggle" href="#">
-<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('category-view')">
@@ -76,7 +71,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -90,25 +85,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
             <p class="name">Verify all the functionality under the PIM page</p>
             <p class="text-sm">
-              <span>8:12:00 am</span> / <span>00:00:17:685</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>1:31:28 pm</span> / <span>00:00:21:822</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Verify all the functionality under the PIM page</h5>
-<span class='badge badge-success'>09.22.2024 8:12:00 am</span>
-<span class='badge badge-danger'>09.22.2024 8:12:18 am</span>
-<span class='badge badge-default'>00:00:17:685</span>
+<h5 class="test-status text-pass">Verify all the functionality under the PIM page</h5>
+<span class='badge badge-success'>09.22.2024 1:31:28 pm</span>
+<span class='badge badge-danger'>09.22.2024 1:31:50 pm</span>
+<span class='badge badge-default'>00:00:21:822</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -121,23 +116,23 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>User can able to add new employee with credentials information</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>TC01_User can able to add new employee with firstName and last name alone</div>
           <div class="status-avatar float-right mr-4">
             <i class="fa fa-paperclip"></i>
           </div>
       </div>
     </div>
-        <div class="scenario_outline ">
+        <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>User can able to add new employee with credentials information</div>
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>TC01_User can able to add new employee with firstName and last name alone</div>
                     <div class="status-avatar float-right">
                       <i class="fa fa-paperclip"></i>
                     </div>
                 </div>
               </div>
-              <div class="card-body mt-3 ">
+              <div class="card-body mt-3 collapse">
                   <div class="step pass-bg">
                     <span>Given User can login the application as admin user</span>
       <div>
@@ -186,41 +181,9 @@
       <div>
       </div>
                   </div>
-                  <div class="step fail-bg">
+                  <div class="step pass-bg">
                     <span>And User can fill the "Vinoth01","Kumar01","1403"</span>
       <div>
-        <textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=128.0.6613.139)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'VINOTHKUMARG', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\vinot\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9617d197a2cb9b35673760a991c035ee
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy38.click(Unknown Source)
-	at page_object.AddEmployeePage.clickCheckBox(AddEmployeePage.java:98)
-	at step_defination.AddEmployee_SD.userCanFillThe(AddEmployee_SD.java:73)
-	at ?.User can fill the "Vinoth01","Kumar01","1403"(file:///C:/Users/vinot/eclipse-workspace/BDD-OrangeHRM/BDD-OrangeHRM/src/test/resources/feature/pim.feature:22)
-</textarea>
-      
       </div>
                   </div>
                   <div class="step pass-bg">
@@ -234,68 +197,8 @@ Session ID: 9617d197a2cb9b35673760a991c035ee
       <div>
       </div>
                   </div>
-                  <div class="step skip-bg">
-                    <span>And user click the check box for Create Login Details and provide the username as "vinoth01" password as "Spring*123"</span>
-      <div>Step skipped
-      </div>
-                  </div>
-              </div>
-            </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="17"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Verify all the functionality under the PIM page</p>
-            <p class="text-sm">
-              <span>8:12:18 am</span> / <span>00:00:18:250</span>
-              <span class="badge fail-bg log float-right">Fail</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-fail">Verify all the functionality under the PIM page</h5>
-<span class='badge badge-success'>09.22.2024 8:12:18 am</span>
-<span class='badge badge-danger'>09.22.2024 8:12:36 am</span>
-<span class='badge badge-default'>00:00:18:250</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5"> |College|
-|DGVC|</div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="18"><span class="badge log fail-bg mr-2">Fail</span>User can able to add new employee with credentials information</div>
-          <div class="status-avatar float-right mr-4">
-            <i class="fa fa-paperclip"></i>
-          </div>
-      </div>
-    </div>
-        <div class="scenario_outline ">
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="19"><span class="badge log fail-bg mr-2">Fail</span>User can able to add new employee with credentials information</div>
-                    <div class="status-avatar float-right">
-                      <i class="fa fa-paperclip"></i>
-                    </div>
-                </div>
-              </div>
-              <div class="card-body mt-3 ">
                   <div class="step pass-bg">
-                    <span>Given User can login the application as admin user</span>
+                    <span>Then Veify record saved successfully</span>
       <div>
       </div>
                   </div>
@@ -308,91 +211,6 @@ Session ID: 9617d197a2cb9b35673760a991c035ee
     </div></div>
 </div>
       <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When User can click the PIM menu link in Side menu</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>hooks_class.Hooks.takeScreenshot(io.cucumber.java.Scenario)</span>
-      <div>screenshot for failed step
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='../embedded6.png' src="../embedded6.png">
-    
-    </div></div>
-</div>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>And User can click the Add Employee tab</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>hooks_class.Hooks.takeScreenshot(io.cucumber.java.Scenario)</span>
-      <div>screenshot for failed step
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='../embedded7.png' src="../embedded7.png">
-    
-    </div></div>
-</div>
-      <div>
-      </div>
-                  </div>
-                  <div class="step fail-bg">
-                    <span>And User can fill the "Vinoth01","Kumar01","1403"</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=128.0.6613.139)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'VINOTHKUMARG', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\vinot\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 471f13cd44ab3f0d104282ca52b95fef
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy38.click(Unknown Source)
-	at page_object.AddEmployeePage.clickCheckBox(AddEmployeePage.java:98)
-	at step_defination.AddEmployee_SD.userCanFillThe(AddEmployee_SD.java:73)
-	at ?.User can fill the "Vinoth01","Kumar01","1403"(file:///C:/Users/vinot/eclipse-workspace/BDD-OrangeHRM/BDD-OrangeHRM/src/test/resources/feature/pim.feature:22)
-</textarea>
-      
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>hooks_class.Hooks.takeScreenshot(io.cucumber.java.Scenario)</span>
-      <div>screenshot for failed step
-          <div class="row mb-3"><div class="col-md-3">
-<img data-featherlight='../embedded8.png' src="../embedded8.png">
-    
-    </div></div>
-</div>
-      <div>
-      </div>
-                  </div>
-                  <div class="step skip-bg">
-                    <span>And user click the check box for Create Login Details and provide the username as "vinoth01" password as "Spring*123"</span>
-      <div>Step skipped
       </div>
                   </div>
               </div>
@@ -411,69 +229,7 @@ Session ID: 471f13cd44ab3f0d104282ca52b95fef
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view exception-view attributes-view">
-<div class="test-list">
-<div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
-</div>
-<div class="test-list-wrapper scrollable">
-<ul class="test-list-item">
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log badge-danger'>2</span>
-</span>
-<p class="name">org.openqa.selenium.StaleElementReferenceException</p>
-<p class="duration text-sm">2 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.openqa.selenium.StaleElementReferenceException</h4>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>08:12:10 am</td>
-<td>
-<a href="#" class="linked" test-id='1' id='11'>And User can fill the "Vinoth01","Kumar01","1403"</a>
-<div class="">
-<span class="badge badge-default">Verify all the functionality under the PIM page.User can able to add new employee with credentials information.And User can fill the "Vinoth01","Kumar01","1403"</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>08:12:27 am</td>
-<td>
-<a href="#" class="linked" test-id='17' id='27'>And User can fill the "Vinoth01","Kumar01","1403"</a>
-<div class="">
-<span class="badge badge-default">Verify all the functionality under the PIM page.User can able to add new employee with credentials information.And User can fill the "Vinoth01","Kumar01","1403"</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="test-content scrollable">
-<div class="test-content-detail">
-<div class="detail-body"></div>
-</div>
-</div>
-</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-wrapper row view category-view attributes-view">
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
@@ -484,15 +240,15 @@ Session ID: 471f13cd44ab3f0d104282ca52b95fef
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>2</span>
+<span class='badge log pass-bg'>1</span>
 </span>
 <p class="name">@Run</p>
-<p class="duration text-sm">2 tests</p>
+<p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>@Run</h4>
-<span status="fail" class='badge log badge-danger'>2 failed</span>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -503,23 +259,13 @@ Session ID: 471f13cd44ab3f0d104282ca52b95fef
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>08:12:00 am</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:31:28 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='3'>User can able to add new employee with credentials information</a>
+<a href="#" class="linked" test-id='1' id='3'>TC01_User can able to add new employee with firstName and last name alone</a>
 <div class="">
-<span class="badge badge-default">Verify all the functionality under the PIM page.User can able to add new employee with credentials information</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>08:12:18 am</td>
-<td>
-<a href="#" class="linked" test-id='17' id='19'>User can able to add new employee with credentials information</a>
-<div class="">
-<span class="badge badge-default">Verify all the functionality under the PIM page.User can able to add new employee with credentials information</span>
+<span class="badge badge-default">Verify all the functionality under the PIM page.TC01_User can able to add new employee with firstName and last name alone</span>
 </div>
 </td>
 </tr>
@@ -540,25 +286,25 @@ Session ID: 471f13cd44ab3f0d104282ca52b95fef
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Sep 22, 2024 08:12:00 am</h3>
+<h3>Sep 22, 2024 01:31:27 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Sep 22, 2024 08:12:36 am</h3>
+<h3>Sep 22, 2024 01:31:50 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>2</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -574,12 +320,12 @@ Session ID: 471f13cd44ab3f0d104282ca52b95fef
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> features passed
+<div><small data-tooltip='100%'>
+<b>1</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>2</b> features failed,
+<small data-tooltip='0%'><b>0</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -597,9 +343,9 @@ Session ID: 471f13cd44ab3f0d104282ca52b95fef
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>1</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='100%'><b>2</b> scenarios failed,
+<small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -617,10 +363,10 @@ Session ID: 471f13cd44ab3f0d104282ca52b95fef
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='77%'><b>14</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>10</b> steps passed</small></div>
 <div>
-<small data-tooltip='11%'><b>2</b> steps failed,
-<b>2</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -636,7 +382,7 @@ Session ID: 471f13cd44ab3f0d104282ca52b95fef
 </div></div>
 <script>
 var timeline = {
-"Verify all the functionality under the PIM page":17.685,"Verify all the functionality under the PIM page":18.25
+"Verify all the functionality under the PIM page":21.822
 };
 </script>
 <div class="row">
@@ -647,11 +393,11 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>@Run</td>
+<td>1</td>
 <td>0</td>
-<td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0%</td>
+<td>100%</td>
 </tr>
 </tbody>
 </table></div>
@@ -662,21 +408,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 2,
+passParent: 1,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 0,
-failChild: 2,
+passChild: 1,
+failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 14,
-failGrandChild: 2,
+passGrandChild: 10,
+failGrandChild: 0,
 warningGrandChild: 0,
-skipGrandChild: 2,
+skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 };

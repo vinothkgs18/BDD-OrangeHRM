@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 37.71 s <<< FAILURE! -- in TestSuite
-runner.TestRunner.runScenario["User can able to add new employee with credentials information", "Verify all the functionality under the PIM page"](1) -- Time elapsed: 17.80 s <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 45.91 s <<< FAILURE! -- in TestSuite
+runner.TestRunner.runScenario["TC01_User can able to add new employee with firstName and last name alone", "Verify all the functionality under the PIM page"](1) -- Time elapsed: 25.31 s <<< FAILURE!
 org.openqa.selenium.StaleElementReferenceException: 
 stale element reference: stale element not found
   (Session info: chrome=128.0.6613.139)
@@ -10,8 +10,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'VINOTHKUMARG', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\vinot\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9617d197a2cb9b35673760a991c035ee
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\vinot\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51584}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b1f9240b1b463b4ad230c3cf89aa5928
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -33,9 +33,9 @@ Session ID: 9617d197a2cb9b35673760a991c035ee
 	at jdk.proxy2/jdk.proxy2.$Proxy38.click(Unknown Source)
 	at page_object.AddEmployeePage.clickCheckBox(AddEmployeePage.java:98)
 	at step_defination.AddEmployee_SD.userCanFillThe(AddEmployee_SD.java:73)
-	at ✽.User can fill the "Vinoth01","Kumar01","1403"(file:///C:/Users/vinot/eclipse-workspace/BDD-OrangeHRM/BDD-OrangeHRM/src/test/resources/feature/pim.feature:22)
+	at ✽.User can fill the "Vinoth01","Kumar01","1403"(file:///C:/Users/vinot/eclipse-workspace/BDD-OrangeHRM/BDD-OrangeHRM/src/test/resources/feature/pim.feature:11)
 
-runner.TestRunner_reRunFaildCase.runScenario["User can able to add new employee with credentials information", "Verify all the functionality under the PIM page"](1) -- Time elapsed: 18.28 s <<< FAILURE!
+runner.TestRunner_reRunFaildCase.runScenario["TC01_User can able to add new employee with firstName and last name alone", "Verify all the functionality under the PIM page"](1) -- Time elapsed: 17.18 s <<< FAILURE!
 org.openqa.selenium.StaleElementReferenceException: 
 stale element reference: stale element not found
   (Session info: chrome=128.0.6613.139)
@@ -43,8 +43,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'VINOTHKUMARG', ip: '192.168.1.6', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\vinot\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50728}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 471f13cd44ab3f0d104282ca52b95fef
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.139, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\vinot\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49db39e0ca36cb63343da5124f1e12d5
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -66,5 +66,5 @@ Session ID: 471f13cd44ab3f0d104282ca52b95fef
 	at jdk.proxy2/jdk.proxy2.$Proxy38.click(Unknown Source)
 	at page_object.AddEmployeePage.clickCheckBox(AddEmployeePage.java:98)
 	at step_defination.AddEmployee_SD.userCanFillThe(AddEmployee_SD.java:73)
-	at ✽.User can fill the "Vinoth01","Kumar01","1403"(file:///C:/Users/vinot/eclipse-workspace/BDD-OrangeHRM/BDD-OrangeHRM/src/test/resources/feature/pim.feature:22)
+	at ✽.User can fill the "Vinoth01","Kumar01","1403"(file:///C:/Users/vinot/eclipse-workspace/BDD-OrangeHRM/BDD-OrangeHRM/src/test/resources/feature/pim.feature:11)
 

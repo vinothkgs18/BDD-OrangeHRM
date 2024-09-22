@@ -70,12 +70,13 @@ public class AddEmployee_SD {
 		addEmployeePage.fillTextBox(1, string);
 		addEmployeePage.fillTextBox(3, string2);
 		addEmployeePage.clickSaveButton(0);
-		addEmployeePage.clickCheckBox();
+
 	    
 	}
 	
 	@When("user click the check box for Create Login Details and provide the username as {string} password as {string}")
 	public void userClickTheCheckBoxForCreateLoginDetailsAndProvideTheUsernameAsPasswordAs(String string, String string2) {
+		addEmployeePage.clickCheckBox();
 		addEmployeePage.fillTextBox(1, string);
 		addEmployeePage.fillUserNameAndPassword(1, string);
 		addEmployeePage.fillUserNameAndPassword(2, string2);

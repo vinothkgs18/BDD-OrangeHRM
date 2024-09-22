@@ -225,3 +225,170 @@
 2024-09-22 09:21:47.078 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
 2024-09-22 09:21:48.461 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
 2024-09-22 09:21:48.780 INFO [main] [hooks_class.Hooks.tearDown(Hooks.java:51)] - Browser quited
+2024-09-22 13:23:31.673 INFO [main] [util.DriverManager.initializeBrowserDriver(DriverManager.java:28)] - Test Executed in Chrome Browser
+2024-09-22 13:23:38.518 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:31)] - navigate to Application OrgangeHRM https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2024-09-22 13:23:38.582 INFO [main] [util.PageUtils.initPageFactory(PageUtils.java:40)] - Initialized the page factory for All class
+2024-09-22 13:23:38.582 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:34)] - Called initPageFactory method
+2024-09-22 13:23:38.617 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:36)] - Maximaized the window
+2024-09-22 13:23:38.639 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:39)] - implicitWait inworked : 3 second
+2024-09-22 13:23:38.658 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:23:38.658 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:23:39.334 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:58)] - Enter the user name as Admin
+2024-09-22 13:23:39.334 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:23:39.334 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:23:39.623 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:61)] - Enter the password as admin123
+2024-09-22 13:23:39.623 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:23:39.623 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:23:39.757 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:64)] - Clicked the login button
+2024-09-22 13:23:41.141 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:23:41.403 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:23:41.403 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:23:42.918 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:23:44.149 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:23:44.306 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:23:44.306 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:23:44.503 INFO [main] [page_object.AddEmployeePage.fillTextBox(AddEmployeePage.java:57)] - Enter the Text box as Vinoth01
+2024-09-22 13:23:44.518 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:23:44.518 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:23:44.760 INFO [main] [page_object.AddEmployeePage.fillTextBox(AddEmployeePage.java:57)] - Enter the Text box as Kumar01
+2024-09-22 13:23:47.787 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:23:47.787 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:23:47.872 INFO [main] [page_object.AddEmployeePage.clickSaveButton(AddEmployeePage.java:75)] - Clicked the save button
+2024-09-22 13:23:50.884 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:23:50.885 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:23:52.321 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:23:53.479 INFO [main] [hooks_class.Hooks.tearDown(Hooks.java:51)] - Browser quited
+2024-09-22 13:23:54.343 INFO [main] [util.DriverManager.initializeBrowserDriver(DriverManager.java:28)] - Test Executed in Chrome Browser
+2024-09-22 13:23:58.126 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:31)] - navigate to Application OrgangeHRM https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2024-09-22 13:23:58.134 INFO [main] [util.PageUtils.initPageFactory(PageUtils.java:40)] - Initialized the page factory for All class
+2024-09-22 13:23:58.135 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:34)] - Called initPageFactory method
+2024-09-22 13:23:58.156 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:36)] - Maximaized the window
+2024-09-22 13:23:58.156 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:39)] - implicitWait inworked : 3 second
+2024-09-22 13:23:58.165 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:23:58.165 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:23:58.582 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:58)] - Enter the user name as Admin
+2024-09-22 13:23:58.582 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:23:58.582 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:23:58.795 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:61)] - Enter the password as admin123
+2024-09-22 13:23:58.795 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:23:58.795 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:23:58.939 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:64)] - Clicked the login button
+2024-09-22 13:24:00.098 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:24:00.347 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:24:00.347 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:24:01.854 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:24:03.096 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:24:03.510 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:24:03.510 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:24:03.730 INFO [main] [page_object.AddEmployeePage.fillTextBox(AddEmployeePage.java:57)] - Enter the Text box as Vinoth01
+2024-09-22 13:24:03.745 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:24:03.745 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:24:04.025 INFO [main] [page_object.AddEmployeePage.fillTextBox(AddEmployeePage.java:57)] - Enter the Text box as Kumar01
+2024-09-22 13:24:07.060 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:24:07.060 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:24:07.095 INFO [main] [page_object.AddEmployeePage.clickSaveButton(AddEmployeePage.java:75)] - Clicked the save button
+2024-09-22 13:24:10.103 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:24:10.112 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:24:11.576 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:24:12.702 INFO [main] [hooks_class.Hooks.tearDown(Hooks.java:51)] - Browser quited
+2024-09-22 13:27:37.425 INFO [main] [util.DriverManager.initializeBrowserDriver(DriverManager.java:28)] - Test Executed in Chrome Browser
+2024-09-22 13:27:48.584 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:31)] - navigate to Application OrgangeHRM https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2024-09-22 13:27:48.612 INFO [main] [util.PageUtils.initPageFactory(PageUtils.java:40)] - Initialized the page factory for All class
+2024-09-22 13:27:48.612 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:34)] - Called initPageFactory method
+2024-09-22 13:27:48.685 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:36)] - Maximaized the window
+2024-09-22 13:27:48.693 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:39)] - implicitWait inworked : 3 second
+2024-09-22 13:27:48.726 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:27:48.727 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:27:49.296 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:58)] - Enter the user name as Admin
+2024-09-22 13:27:49.296 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:27:49.297 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:27:49.505 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:61)] - Enter the password as admin123
+2024-09-22 13:27:49.510 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:27:49.511 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:27:49.662 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:64)] - Clicked the login button
+2024-09-22 13:27:50.971 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:27:51.265 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:27:51.266 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:27:52.777 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:27:53.854 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:27:54.015 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:27:54.015 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:27:54.095 INFO [main] [page_object.AddEmployeePage.fillTextBox(AddEmployeePage.java:57)] - Enter the Text box as Vinoth01
+2024-09-22 13:27:54.105 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:27:54.106 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:27:54.155 INFO [main] [page_object.AddEmployeePage.fillTextBox(AddEmployeePage.java:57)] - Enter the Text box as Kumar01
+2024-09-22 13:27:57.170 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:27:57.170 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:27:57.219 INFO [main] [page_object.AddEmployeePage.clickSaveButton(AddEmployeePage.java:75)] - Clicked the save button
+2024-09-22 13:28:00.228 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:28:00.229 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:28:01.600 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:28:01.796 INFO [main] [hooks_class.Hooks.tearDown(Hooks.java:51)] - Browser quited
+2024-09-22 13:28:02.674 INFO [main] [util.DriverManager.initializeBrowserDriver(DriverManager.java:28)] - Test Executed in Chrome Browser
+2024-09-22 13:28:04.664 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:31)] - navigate to Application OrgangeHRM https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2024-09-22 13:28:04.685 INFO [main] [util.PageUtils.initPageFactory(PageUtils.java:40)] - Initialized the page factory for All class
+2024-09-22 13:28:04.686 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:34)] - Called initPageFactory method
+2024-09-22 13:28:06.785 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:36)] - Maximaized the window
+2024-09-22 13:28:06.789 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:39)] - implicitWait inworked : 3 second
+2024-09-22 13:28:06.790 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:28:06.790 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:28:07.172 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:58)] - Enter the user name as Admin
+2024-09-22 13:28:07.172 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:28:07.173 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:28:07.258 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:61)] - Enter the password as admin123
+2024-09-22 13:28:07.259 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:28:07.259 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:28:07.341 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:64)] - Clicked the login button
+2024-09-22 13:28:08.523 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:28:08.740 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:28:08.740 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:28:10.281 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:28:11.534 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:28:11.710 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:28:11.711 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:28:11.829 INFO [main] [page_object.AddEmployeePage.fillTextBox(AddEmployeePage.java:57)] - Enter the Text box as Vinoth01
+2024-09-22 13:28:11.840 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:28:11.840 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:28:11.988 INFO [main] [page_object.AddEmployeePage.fillTextBox(AddEmployeePage.java:57)] - Enter the Text box as Kumar01
+2024-09-22 13:28:15.022 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:28:15.027 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:28:15.067 INFO [main] [page_object.AddEmployeePage.clickSaveButton(AddEmployeePage.java:75)] - Clicked the save button
+2024-09-22 13:28:18.072 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:28:18.072 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:28:19.577 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:28:19.804 INFO [main] [hooks_class.Hooks.tearDown(Hooks.java:51)] - Browser quited
+2024-09-22 13:31:28.812 INFO [main] [util.DriverManager.initializeBrowserDriver(DriverManager.java:28)] - Test Executed in Chrome Browser
+2024-09-22 13:31:39.951 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:31)] - navigate to Application OrgangeHRM https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2024-09-22 13:31:39.980 INFO [main] [util.PageUtils.initPageFactory(PageUtils.java:40)] - Initialized the page factory for All class
+2024-09-22 13:31:39.980 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:34)] - Called initPageFactory method
+2024-09-22 13:31:40.041 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:36)] - Maximaized the window
+2024-09-22 13:31:40.047 INFO [main] [hooks_class.Hooks.startUp(Hooks.java:39)] - implicitWait inworked : 3 second
+2024-09-22 13:31:40.055 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:31:40.055 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:31:40.521 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:58)] - Enter the user name as Admin
+2024-09-22 13:31:40.521 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:31:40.522 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:31:40.590 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:61)] - Enter the password as admin123
+2024-09-22 13:31:40.591 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:31:40.591 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:31:41.943 INFO [main] [page_object.LoginPage.dologin(LoginPage.java:64)] - Clicked the login button
+2024-09-22 13:31:42.055 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:31:42.296 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:31:42.296 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:31:43.572 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:31:44.764 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:31:44.995 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:31:44.995 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:31:45.085 INFO [main] [page_object.AddEmployeePage.fillTextBox(AddEmployeePage.java:57)] - Enter the Text box as Vinoth01
+2024-09-22 13:31:45.097 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:31:45.098 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:31:45.179 INFO [main] [page_object.AddEmployeePage.fillTextBox(AddEmployeePage.java:57)] - Enter the Text box as Kumar01
+2024-09-22 13:31:48.216 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:31:48.217 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:31:48.269 INFO [main] [page_object.AddEmployeePage.clickSaveButton(AddEmployeePage.java:75)] - Clicked the save button
+2024-09-22 13:31:48.420 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:31:49.530 INFO [main] [page_object.Base.highLightElement(Base.java:39)] - Object created for JavaScript executor interface
+2024-09-22 13:31:49.530 INFO [main] [page_object.Base.highLightElement(Base.java:40)] -  Calling heighLighted method 
+2024-09-22 13:31:49.576 INFO [main] [page_object.AddEmployeePage.getTextFromSuccessMessage(AddEmployeePage.java:86)] - Record saved successfully, tost message displayed and message as Successfully Saved
+2024-09-22 13:31:49.709 INFO [main] [hooks_class.Hooks.takeScreenshot(Hooks.java:70)] - take screenshot for faild steps
+2024-09-22 13:31:50.188 INFO [main] [hooks_class.Hooks.tearDown(Hooks.java:51)] - Browser quited
