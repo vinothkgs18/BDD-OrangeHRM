@@ -3,7 +3,7 @@ Feature: Verify all the functionality under the PIM page
   |College|
   |DGVC|
 
-
+@Run
   Scenario Outline: TC01_User can able to add new employee with firstName and last name alone
     Given User can login the application as admin user
     When User can click the PIM menu link in Side menu
@@ -14,7 +14,7 @@ Feature: Verify all the functionality under the PIM page
     Examples: 
       | FirstName | LastName | Employee_ID |
       | Vinoth01  | Kumar01  |        1403 |
-  @Run
+  
   Scenario Outline: User can able to add new employee with credentials information
   Given User can login the application as admin user
     When User can click the PIM menu link in Side menu
