@@ -40,6 +40,12 @@ public class AddEmployeePage {
 	
 	@FindBy(xpath="//div[@class='oxd-loading-spinner-container']")
 	private WebElement loadingIcon;
+	
+	@FindBy(xpath="//input[@type='checkbox']")
+	private WebElement checkBox;
+	
+	@FindBy(xpath="//div[@class='oxd-input-group oxd-input-field-bottom-space']//input[@class='oxd-input oxd-input--active']")
+	private List<WebElement> textbox2;
 	//---------------------------------------------------------------------------------------------------------------------------
 	
 	
@@ -79,6 +85,23 @@ public class AddEmployeePage {
 		String text = successTostMessage.getText();
 		LOGGER.info("Record saved successfully, tost message displayed and message as "+text);
 		return text;
+	}
+	
+	public void clickCheckBox() {
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Base.highLightElement(checkBox);
+		checkBox.click();
+		LOGGER.info("Clicked the check box for Create Login Details ");
+	}
+	
+	public void fillUserNameAndPassword(int i,String value) {
+		Base.highLightElement(textbox2.get(i));
+		textbox2.get(i).sendKeys(value);
 	}
 	
 	

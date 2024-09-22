@@ -53,7 +53,7 @@ public class DataSetup_01 {
 
 	@When("User can click the Add Employee tab")
 	public void userCanClickTheAddEmployeeTab() {
-		pim_Page.clickTopMenu(3);
+		pim_Page.clickTopMenu(2);
 
 	}
 

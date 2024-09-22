@@ -65,6 +65,23 @@ public class AddEmployee_SD {
 	   reportingTo.clickSaveButton(0);
 	}
 	
+	@When("User can fill the {string},{string},{string}")
+	public void userCanFillThe(String string, String string2, String string3) {
+		addEmployeePage.fillTextBox(1, string);
+		addEmployeePage.fillTextBox(3, string2);
+		addEmployeePage.clickSaveButton(0);
+		addEmployeePage.clickCheckBox();
+	    
+	}
+	
+	@When("user click the check box for Create Login Details and provide the username as {string} password as {string}")
+	public void userClickTheCheckBoxForCreateLoginDetailsAndProvideTheUsernameAsPasswordAs(String string, String string2) {
+		addEmployeePage.fillTextBox(1, string);
+		addEmployeePage.fillUserNameAndPassword(1, string);
+		addEmployeePage.fillUserNameAndPassword(2, string2);
+		addEmployeePage.fillUserNameAndPassword(3, string2);
+	}
+	
 	
 
 

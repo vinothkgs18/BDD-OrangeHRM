@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.CucumberOptions.SnippetType;
 
 @CucumberOptions(features = {"src/test/resources/feature/"}, 
-			tags = "@excel",
+			tags = "@Run",
 			glue = {"step_defination", "hooks_class" },
 			snippets=SnippetType.CAMELCASE,
 			dryRun =   !true,

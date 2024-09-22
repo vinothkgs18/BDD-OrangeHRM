@@ -1,6 +1,7 @@
 runner\TestRunner_reRunFaildCase.class
 step_defination\Test.class
 page_object\AddUserPage.class
+step_defination\AppachePOI.class
 step_defination\AdminFunc_SD.class
 util\Helper.class
 page_object\PIM_Page.class
